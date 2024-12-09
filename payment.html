@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">GameTopUp</div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="games.html">Game List</a>
+                <a href="checkout.html">Checkout</a>
+                <a href="payment.html" class="active">Payment</a>
+                <a href="thankyou.html">Thank You</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>pilih metode pembayaran</h1>
+        <p>pembayaran mengunakan:</p>
+        <div class="payment-grid">
+            <!-- Payment Option 1 -->
+            <div class="payment-card">
+                <img src="imagebox/credit.png" alt="Credit Card">
+                <h3>Credit/Debit Card</h3>
+                <p>Pay securely using your Visa, MasterCard, or other credit/debit cards.</p>
+                <button onclick="window.location.href='thankyou.html'">Select</button>
+            </div>
+            <!-- Payment Option 2 -->
+            <div class="payment-card">
+                <img src="imagebox/paypal.png" alt="PayPal">
+                <h3>PayPal</h3>
+                <p>Fast and secure payment through your PayPal account.</p>
+                <button onclick="window.location.href='thankyou.html'">Select</button>
+            </div>
+            <!-- Payment Option 3 -->
+            <div class="payment-card">
+                <img src="imagebox/BRIMO.png" alt="Bank Transfer">
+                <h3>Bank Transfer</h3>
+                <p>Direct payment through your local bank.</p>
+                <button onclick="window.location.href='thankyou.html'">Select</button>
+            </div>
+            <!-- Payment Option 4 -->
+            <div class="payment-card">
+                <img src="imagebox/DANA.jpg" alt="E-Wallet">
+                <h3>E-Wallet</h3>
+                <p>Pay using popular E-Wallet services like DANA or OVO.</p>
+                <button onclick="window.location.href='thankyou.html'">Select</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 GameTopUp. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
